@@ -1,0 +1,229 @@
+.content-details {
+	width: 1025px;
+}
+
+.boost {
+  width: 226px;
+  height: 128px;
+  color: #3a3a3a;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-top: 26px;
+  margin-left: 31px;
+}
+
+.boost h1 {
+	font-family: 'AvenirNext_bold';
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0;
+	margin-bottom: 14px;
+}
+
+.btn-save {
+	font-family: 'AvenirNext_bold';
+    font-weight: bold;
+    font-size: 18px;
+		height: 75px;
+    width: 75px;
+    text-transform: uppercase;
+    background: #e3e3e3;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 100%;
+
+}
+.right-nav {
+	position: absolute;
+
+
+z-index: 1;
+  display: inline-block;
+  position: absolute;
+  top: 42px;
+  right: 143px;
+}
+
+.btn-color button {
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  border-width: 0;
+  margin-left: 13px;
+}
+
+.first {
+  background-color: #c5c5c5;
+}
+
+.second {
+  background-color: #4d87ca;
+}
+
+.third {
+  background-color: #4a4a4a;
+}
+
+.fourth {
+  background-color: #e0e0e0;
+}
+
+.sale-adv {
+  font-size: 14px;
+  font-family: 'AvenirNext_bold';
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  right: 37px;
+  top: 35px;
+  background: #ff5c5c;
+  width: 76px;
+  height: 32px;
+  line-height: 2.3;
+  font-weight: bold;
+}
+
+.big_image img {
+  width: 804px;
+  height: 525px;
+  object-fit: contain;
+  margin-left: 77px;
+  margin-top: -103px;
+}
+
+.price-h2 {
+  width: 207px;
+  height: 109px;
+  color: #e5e5e5;
+  position: absolute;
+  right: 31px;
+  top: 87px;
+	margin-top: 20px;
+	margin-right: 31px;
+}
+
+.price-h2 h2 {
+  margin: 0;
+	font-family: 'AvenirNext_bold';
+  font-size: 80px;
+  font-weight: bold;
+}
+
+
+.details-photo {
+	margin-left: 34px;
+}
+
+.other-photos {
+position: relative;
+display: inline-block;
+padding-bottom: 15px;
+}
+
+.foto {
+	width: 150px;
+  height:130px;
+	object-fit: contain;
+}
+
+.one{
+	margin-right: 16px;
+}
+
+.two {
+	margin-right: 6px;
+}
+
+.three {
+	margin-right: 28px;
+}
+
+.four {
+	margin-right: 33px;
+}
+
+.lines {
+	position: absolute;
+  width: 160px;
+  display: inline-block;
+  padding-top: 49px;
+  padding-bottom: 49px;
+	margin-right: 28px;
+}
+
+.line {
+	width: 159px;
+	height: 3px;
+  background-color: #e7e7e7;
+  border-radius: 1.5px;
+  margin: 1.5px 1.5px;
+}
+
+.btn-seemore {
+	display: inline-block;
+	font-family: 'AvenirNext';
+	font-size: 14px;
+	font-weight: 500;
+  color: #c0c0c0;
+	text-align: left;
+	background: none;
+  border: none;
+  position: absolute;
+  right: 58px;
+  padding-top:30px;
+  padding-bottom: 49px;
+}
+
+.about-brand {
+
+	margin-right: 64px;
+	position: relative;
+	margin-bottom: 176px;
+	  height: 150px;
+}
+.about {
+	font-family: "Avenir Next", Arial, sans-serif;
+    font-weight: 500;
+
+    line-height: 1.52;
+    color: #d8d8d8;
+
+	}
+	.select {
+		color: #6e6e6e;
+	}
+	 p {
+		font-size: 33px;
+		margin: 0;
+
+	}
+
+.btn-buy{
+	width: 1025px;
+	height: 115px;
+
+}
+
+
+
+.buy {
+	width: 1025px;
+	height: 115px;
+	padding: 0;
+	font-family: 'AvenirNext_bold';
+	font-size: 32px;
+	font-weight: bold;
+	  color: #fff;
+	    cursor: pointer;
+	    border: 0;
+	    outline: none;
+text-transform: uppercase;
+    background: linear-gradient(to right, #4949aa, #27275d);
+    line-height: 44px;
+    height: 115px;
+
+
+
+}

@@ -1,0 +1,382 @@
+body {
+	margin: 0;
+	width: 1447px;
+	height: 1171px;
+}
+
+div {
+	display:block;
+}
+.shop {
+	display: flex;
+  position: relative;
+}
+
+.sidebar {
+  background: #0e0e0e;
+  width: 414px;
+	height: 1171px;
+  min-height: 100%;
+  text-align: center;
+}
+
+.logo img {
+	text-align: center;
+	padding-top: 30px;
+	width: 94px;
+	height: 94px;
+	object-fit: contain;
+}
+
+.search {
+  font-weight: 600;
+  color: #3a3a3a;
+  background: url(../images/search-icon.svg) 10px 10px no-repeat;
+  background-size: 28px 30px;
+  border: none;
+  border-bottom: 4px solid #373737;
+  margin-top: 20px;
+  width: 100%;
+  outline: none;
+	padding-top: 20px;
+}
+
+input[type="text"] {
+	font-size: 24px;
+}
+
+.search-field {
+	opacity: 0.56;
+	margin-left: 22px;
+	margin-right: 22px;
+}
+
+.menu-nav {
+	padding-top: 150px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.item {
+	font-size: 24px;
+	color: #3c3c3c;
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.item a {
+	font-size: 24px;
+	text-decoration: none;
+	color: #3c3c3c;
+}
+
+.sports a {
+	color:#fff;
+}
+
+.sports {
+	font-family: 'AvenirNext_bold';
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+.stelochkkkaa{
+	padding-bottom: 3px;
+}
+
+.shoes {
+	font-family: 'AndaleMono';
+	padding-bottom: 26px;
+}
+
+.clothing {
+	font-family: 'AndaleMono';
+	padding-bottom: 25px;
+}
+
+.accesories {
+	font-family: 'AndaleMono';
+	padding-bottom: 50px;
+}
+
+.brands {
+	font-family: 'AvenirNext_bold';
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+.micoach {
+	font-family: 'AvenirNext_bold';
+	font-weight: bold;
+}
+
+.active a {
+	color:#fff;
+}
+
+.item a:hover {
+	color:#fff;
+}
+
+.content {
+	padding: 11px 24px 421px 24px;
+}
+
+.nav {
+	display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.nav button {
+	background-color: #fff;
+	border: none;
+	text-transform: uppercase;
+}
+
+.btn {
+	width: 55px;
+	height: 55px;
+	background-color: #ebebeb;
+	background-color: var(--white);
+}
+
+.filter {
+object-fit: contain;
+width: 55px;
+height: 55px;
+background: #ebebeb url(../images/filter.png) 50% 50% no-repeat;
+cursor: pointer;
+}
+
+.sex {
+	display: flex;
+	margin-left: 30px;
+	font-family: 'AvenirNext_bold';
+	font-size: 24px;
+	font-weight: bold;
+	color: #4d42f8;
+}
+
+.man {
+	width: 60px;
+	height: 33px;
+	font-size: 24px;
+	font-family: 'AvenirNext_bold';
+	font-weight: bold;
+	color: #4d42f8;
+	text-align: left;
+	margin-right: 10px;
+}
+
+.woman {
+	width: 110px;
+	height: 33px;
+	font-size: 24px;
+	font-family: 'AvenirNext_bold';
+	font-weight: bold;
+	color: #d6d6d6;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+.size {
+	display: inline-flex;
+	width: 52px;
+	height: 33px;
+	font-size: 24px;
+	font-family: 'AvenirNext_bold';
+	font-weight: bold;
+	color: #4d42f8;
+}
+
+.numbers {
+	display: inline-flex;
+	margin-left: 18px;
+	width: 254px;
+	height: 33px;
+}
+
+.active-number {
+ color: #4d42f8 !important;
+}
+
+.btn-size:hover {
+	color:#4d42f8;
+}
+
+.numbers button {
+	font-size: 24px;
+	font-family: 'AvenirNext_bold';
+	font-weight: bold;
+	color: #d6d6d6;
+	cursor: pointer;
+	padding-right: 0;
+}
+
+.line-bor {
+	width: 100%;
+	margin-top: 11px;
+	border-top: 3px solid #e7e7e7;
+	opacity: 0.56;
+	padding-bottom: 22px;
+}
+
+.row {
+	display: flex;
+}
+
+.col-1 {
+	flex-basis: 8.333%;
+}
+
+.col-2 {
+	flex-basis: 16.667%;
+}
+
+.col-3 {
+	flex-basis:25%;
+}
+
+.col-4 {
+	flex-basis:33.333%;
+}
+
+.col-5 {
+	flex-basis: 41.667%;
+}
+
+.col-6 {
+	flex-basis: 50%;
+}
+
+.col-7 {
+	flex-basis:58.333%;
+}
+
+.col-8 {
+	flex-basis:66.667%;
+}
+
+.col-9 {
+	flex-basis:75%;
+}
+
+.col-10 {
+	flex-basis:83.333%;
+}
+
+.col-11 {
+	flex-basis:91.667%;
+}
+
+.col-12 {
+	flex-basis:100%;
+}
+
+/*[class*="col-"] {
+	padding-left: 15px;
+	padding-right: 15px;
+}*/
+
+.card {
+	padding: 6px 9px 0px 8px;
+	background: #f4f4f4;
+	margin-bottom: 24px;
+	position: relative;
+	margin-right: 25px;
+	width: 312px;
+	height: 312px;
+}
+
+.card-img {
+	width: 100%;
+	height: 197px;
+}
+
+.price {
+	text-decoration: none;
+	text-align: center;
+  font-size: 30px;
+	font-family: 'AvenirNext_bold';
+	font-weight: bold;
+  color: #111;
+  background: #fff;
+  padding: 28px 20px 32px;
+  margin-top: 7px;
+  display: block;
+}
+
+.sale {
+	background-image: linear-gradient(107deg, #0c09bf, #966dd8);
+  color: #fff;
+}
+
+.sale:hover {
+	background-image: linear-gradient(101deg, #966dd8, #0c09bf);
+}
+
+.sale-msg {
+	font-size: 14px;
+	font-family: 'AvenirNext_bold';
+	color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  background: #ff5c5c;
+  width: 76px;
+  height: 32px;
+  line-height: 2.3;
+  font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Nexa_bold';
+    src: url('../fonts/nexa/nexa_bold-webfont.woff2') format('woff2'), url('/assets/fonts/nexa/nexa_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNext_bold';
+    src: url('../fonts/AvenirNext/avenir-next-bold.woff2') format('woff2'), url('/assets/fonts/AvenirNext/avenir-next-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('../fonts/AvenirNext/avenir-next-regular.woff2') format('woff2'), url('/assets/fonts/AvenirNext/avenir-next-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AndaleMono';
+    src: url('../fonts/Andale-Mono/andalemono-webfont.woff2') format('woff2'), url('/assets/fonts/Andale-Mono/andalemono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
